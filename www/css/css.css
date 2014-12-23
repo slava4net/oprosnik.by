@@ -1,0 +1,100 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo, tt, u, ul, var {
+	background: none repeat scroll 0% 0% transparent; 
+	/* font-size: 100%;  */
+	margin: 0px; 
+	padding: 0px; 
+	border: 0px none; 
+	outline: 0px none;
+
+}
+
+ol, ul { list-style: none outside none; }
+
+
+input[type="radio"],input[type="checkbox"]{	
+	width:0px;
+	margin: 0;
+    padding: 0;
+	display: block;
+	
+}
+
+body{
+	/*background-color:#dcdcdc;*/
+}
+
+
+@-moz-document url-prefix() {
+	input[type="radio"],input[type="checkbox"]{	
+		display: none;
+	}
+}
+
+.main{
+	width:1080px;
+	height:960px;
+	/*что бы пока видеть границы*/
+	border:1px dashed red;
+	
+	position:absolute;
+	left:0;
+	top:0;
+}
+.header{
+	text-align:center;
+	padding:20px 50px;
+}
+
+.radio_group{
+	width:80%;
+	margin:0 auto;
+	height:780px;
+}
+
+label {
+	display: inline-block;  
+	cursor: pointer;  
+	position: relative;  
+	width:100%;
+}
+
+label .img{
+	margin-top: 5px;
+	width:11%;
+	height:90px;
+	float:left;
+}
+
+label >.text{
+	float:left;
+	margin:0 0 0 30px;
+	font-size:35px;
+	width:85%;
+}
+
+.subm{
+	text-align:center;
+	width:100%;
+	height:104px;
+	position:absolute;
+	bottom:40px;
+}
+
+.subm > div{
+	width:284px;
+	height:104px;
+	background:url('../images/bt.png') no-repeat left top;
+	margin:0 auto;
+	cursor:pointer;
+}
+
+
+
+.clear{
+	clear:both;
+}
+
+.thank-page{
+ margin-left:50px;
+ margin-right:50px;
+}

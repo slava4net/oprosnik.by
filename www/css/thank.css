@@ -1,0 +1,364 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:none;
+	/* font-size:15px; */
+}
+
+img{
+    border:none;
+    display:block;
+}
+
+a, a:hover, a:active{
+	text-decoration:none;
+	color:#000000;
+}
+
+/*********************** reset ******************************************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*******************************************************************/
+
+.clear{
+    clear: both;
+    display: block;
+    float: none;
+    line-height: 0px;
+    font-size: 0px;
+    padding: 0px;
+    margin: 0px;
+    height: 0px;
+    width:0px;
+}
+
+.thank-height{
+	height:920px;
+}
+
+.main{
+	width:1360px;
+	height:640px;
+}
+
+	.left, .right{
+		width:670px;
+		height:590px;
+		float:left;
+	}
+	
+	.left{
+		border-right:1px solid black;
+		overflow:auto;
+	}
+
+.header{
+	height:60px;
+	border-bottom:1px solid black;
+	position:relative;
+}
+
+.header	.title,.header .preview, .header .authorisation, .header .create-new{
+	float:left;
+	position:relative;
+}
+
+.header .preview{
+	float:left;
+	bottom:-38px;	
+	left: 50px;
+}
+
+.header .create-new{
+	float:left;
+	bottom:-15px;	
+	left: 15px;
+	
+	display:table-cell;
+	vertical-align:middle;
+	/*height:60px;*/
+	width:185px;
+	border-style:solid;
+	border-color:black;
+	border-width: 1px 3px 3px 1px; 
+	font-size:20px;
+	text-align:center;	
+}
+
+.header	.title{
+		font-size:25px;
+		font-family:Verdana, Tahoma;
+		width:400px;
+		margin:auto;
+		text-align:center;
+		/* float:left;*/
+		width: 955px;
+		bottom: -15px;
+}
+
+.header .authorisation{
+	float:right;
+	top:5px;	
+	right:10px;
+}
+.answers > .question{
+    margin:20px 20px;
+}
+
+.header .authorisation div{
+	float:left;
+	margin:0 10px;
+}
+
+.header .authorisation a{
+	float:left;
+	text-decoration:underline;
+	text-decoration:underline;
+	display:block;
+	margin:0 10px;
+}
+
+	
+.surwey{
+	height:960px;
+}
+
+.surwey .workspace{
+	padding:20px 50px 20px 50px;
+}
+
+.workspace .question{
+	text-align:center;
+	overflow:hidden;	
+	height:100%;
+	border:dashed 2px black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.control-panel{
+	position: relative;
+	margin-left:100px;
+	height:560px;
+	padding-top:25px;
+}
+
+.control-panel .block{
+	margin-bottom:25px;
+	width:350px;
+}
+
+.block .title{
+	margin-bottom:10px;
+}
+
+.block .elmsize{
+	position:relative;
+	float:left;
+}
+
+.number{
+	width:30px;
+	height:20px;
+	border:1px solid black;
+	float:left;
+	/* margin-top:14px; */
+	margin-top:4px;
+	margin-left:10px;
+	text-align:center;
+}
+
+.number .num{
+	height:15px;
+	width:15px;
+	float:left;
+}
+
+.elmsize img{
+	margin:auto;
+	margin-left:0px;
+}
+
+.sname{
+	/* style here */
+}
+
+.sname span{
+	margin-left:5px;
+}
+
+.sname span:focus{
+	border:1px solid black;
+	margin-left:3px;
+	padding:1px;
+}
+
+.colorpicker{
+	float:left;
+}
+
+.wrapfile{
+	text-align: center; 
+	overflow: hidden; 
+	width: 100px; 
+	height: 25px; 
+	border: 1px solid black; 
+	cursor:pointer;
+	float:left;
+	margin-left:15px;
+}
+
+.wrapfile input[type=file]{
+	margin-top: -50px; 
+	margin-left:-410px; 
+	-moz-opacity: 0; 
+	filter: alpha(opacity=0); 
+	opacity: 0; 
+	font-size: 150px; 
+	height: 100px;
+	cursor:pointer;
+}
+
+.btnfile{
+	font-size: 20px; 
+}
+
+.block .add, .thank{
+	width:300px;
+	height:32px;
+	position:relative;
+}
+
+.add span, .thank span{
+	position:absolute;
+	top:6px;
+	left:50px;
+	right:0px;
+	bottom:0px;
+}
+
+
+.save-panel{
+	position:absolute;
+	bottom:0px;
+	position:absolute;
+	bottom:0px;
+}
+
+.draft, .finish{
+	float:left;
+}
+
+.finish{
+	margin-left:50px;
+}
+
+.draft img{
+	display:block;
+}
+
+.draft a{
+	color:red;
+}
+
+.save-panel a.save-finish{
+	display:table-cell;
+	vertical-align:middle;
+	height:60px;
+	width:185px;
+	border-style:solid;
+	border-color:black;
+	border-width: 1px 3px 3px 1px; 
+	font-size:32px;
+	text-align:center;	
+}
+
+.answer{
+	/*height:50px;*/
+	padding-left:30px;
+	position:relative;
+}
+
+.answer .elm{
+	float:left;
+	/* margin: 0 10px; */
+	width:45px;
+	position:relative;
+}
+
+.elm > img{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+.answer .del{
+position:absolute;
+top:3px;
+left:10px;
+}
+
+.answer .text{
+	font-size:33px;
+	margin-left:60px;
+	min-height: 25px;
+	width:430px;
+	padding:5px;
+}
+
+.answer.active .text{
+	border-radius: 5px;
+	border: 2px dashed black;
+}
+
+/*********************************************/
+.qchild{
+	min-height:50px;
+	margin:0 20px;
+	border:dashed 2px black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align:center;
+	overflow:hidden;
+}
